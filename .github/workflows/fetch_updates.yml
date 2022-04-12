@@ -1,4 +1,4 @@
-# This is a basic workflow that is manually triggered
+# This is a basic workflow that is triggered on the first of each month
 
 name: Update info from Wikimedia workflow
 
