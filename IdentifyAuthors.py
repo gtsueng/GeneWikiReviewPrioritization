@@ -11,7 +11,7 @@ import pickle
 import lzma
 import pathlib
 
-Entrez.email = os.environ['useremail']
+Entrez.email = os.environ['USEREMAIL']
 
 ###############################################################################
 ## This module takes a list of entrez gene ids, looks up PMIDs associated with

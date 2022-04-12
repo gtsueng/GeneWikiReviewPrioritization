@@ -303,7 +303,7 @@ datapath = os.path.join(script_path,'data/')
 resultpath = os.path.join(script_path,'results/')
 
 #### Config
-useragent = os.environ['User-Agent']
+useragent = os.environ['USER_AGENT']
 
 mwsite = mw.Site('en.wikipedia.org', clients_useragent=useragent['User-Agent'])
 
