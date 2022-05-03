@@ -296,7 +296,7 @@ def filter_wikis(datapath,resultpath):
     print(detailed_shorter_articles.head(n=2))
     
 
-%%time
+
 #### Paths
 script_path = pathlib.Path(__file__).parent.absolute()
 datapath = os.path.join(script_path,'data/')
